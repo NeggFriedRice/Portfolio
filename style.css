@@ -1,0 +1,56 @@
+/* Delete before publishing */
+#fiveserver-info-wrapper {
+    display: none !important;
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0.2rem;
+    min-width: 3rem;
+    background-color: rgb(50, 116, 124);
+    position: fixed;
+    width: 100vw;
+}
+
+nav a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    text-wrap: nowrap; 
+    margin: 0 0.6rem;
+    color: white;
+}
+
+i {
+    margin: 0 0.3rem;
+}
+.socialLogo {
+    max-height: 2rem;
+}
+
+section a {
+    margin: 0 1rem;
+}
+
+.socialBanner {
+    background-color:rgb(56, 143, 153);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4rem 0.5rem 0.5rem;
+        
+}
+
+body {
+    background-color: rgb(60, 165, 156);
+}
+
