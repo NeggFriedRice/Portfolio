@@ -47,10 +47,19 @@ section a {
     justify-content: flex-end;
     align-items: center;
     padding: 4rem 0.5rem 0.5rem;
-        
 }
 
 body {
-    background-color: rgb(60, 165, 156);
+    background-color: rgb(131, 182, 178);
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 1rem 0;
 }
 
