@@ -19,6 +19,11 @@ header nav {
     background-color: rgb(50, 116, 124);
     position: fixed;
     width: 100vw;
+       
+}
+
+header, #socialBanner {
+    animation: fadeIn2 2s; 
 }
 
 nav a {
@@ -27,7 +32,17 @@ nav a {
     text-decoration: none;
     text-wrap: nowrap; 
     margin: 0 0.6rem;
+    color: rgb(148, 218, 208);
+    animation: fadeIn2 2.5s;
+    transition: 0.5s;    
+}
+
+nav a:hover {
     color: white;
+}
+
+.socialBanner a {
+    animation: fadeIn2 2.5s;    
 }
 
 i {
@@ -35,6 +50,11 @@ i {
 }
 .socialLogo {
     max-height: 2rem;
+    transition: 0.3s;
+}
+
+.socialLogo:hover {
+    max-height: 2.5rem;
 }
 
 section a {
@@ -46,7 +66,7 @@ section a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 4rem 0.5rem 0.5rem;
+    padding: 4rem 0.5rem 0.5rem;    
 }
 
 body {
