@@ -10,12 +10,12 @@
     font-family: 'Monsterrat', sans-serif;
 }
 
-header nav {
+nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 0.2rem;
-    min-width: 3rem;
+    /* min-width: 3rem; */
     background-color: rgb(50, 116, 124);
     position: fixed;
     width: 100vw;
@@ -29,11 +29,12 @@ header, #socialBanner {
 nav a {
     display: inline-flex;
     align-items: center;
+    font-size: 0.8rem;
     text-decoration: none;
     text-wrap: nowrap; 
-    margin: 0 0.6rem;
+    margin: 0 0.4rem;
     color: rgb(148, 218, 208);
-    animation: fadeIn2 2.5s;
+    animation: fadeIn3 2.5s;
     transition: 0.5s;    
 }
 
@@ -42,7 +43,17 @@ nav a:hover {
 }
 
 .socialBanner a {
-    animation: fadeIn2 2.5s;    
+    display: flex;
+    align-items: center;
+    animation: fadeIn3 2.5s;
+    font-size: 0;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+.socialBanner img {
+    margin-right: 0.5rem;
 }
 
 i {
@@ -57,8 +68,13 @@ i {
     max-height: 2.5rem;
 }
 
-section a {
+.socialBanner a:hover {
+    font-size: 1rem;
+}
+
+address a {
     margin: 0 1rem;
+    font-style: normal;
 }
 
 .socialBanner {

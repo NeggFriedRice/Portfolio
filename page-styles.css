@@ -1,0 +1,60 @@
+main {
+    margin: 0.5rem 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h1 {
+    padding: 1rem 1rem;
+}
+
+h3 {
+    padding: 1rem 1rem 0;
+}
+
+p {
+    padding: 1rem 1rem;
+}
+
+p:nth-last-of-type(1) {
+    padding-bottom: 1rem;
+}
+
+.hBox {
+    background-color:rgb(50, 116, 124);
+    border-radius: 1rem;
+    animation: slide 1.5s ease;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;   
+    width: 90vw;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;  
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.486);
+    font-size: 1rem; 
+    margin-bottom: 1rem;
+    animation: fadeIn2 2s ease;
+}
+
+.contentImage {
+    max-width: 40vw;
+    border-radius: 5rem;
+    align-self: center;
+    transition: 0.8s;
+    padding-top: 1rem;
+}
+
+.contentImage:hover {
+    max-width: 45vw;
+    border-radius: 3rem;
+    transition: 0.8s;
+}

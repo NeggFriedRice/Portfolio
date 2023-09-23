@@ -14,3 +14,12 @@
     60% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+@keyframes slide {
+    0% {width: 1vw;
+        opacity: 0;    
+    }
+    100% {width: 90vw;
+        opacity: 1;
+    }
+}
