@@ -1,4 +1,4 @@
-main {
+main, section {
     margin: 0.5rem 1rem 0.5rem;
     display: flex;
     flex-direction: column;
@@ -6,46 +6,59 @@ main {
 }
 
 body {
-    animation: fadeIn1 2s ease-out;
+    animation: fadeIn1 1.5s ease-out;
+    transition: 0.8s;
 }
 
 #headshotImage {
     border-radius: 6rem;
-    max-width: 40vw;
-    margin: 3vh;
+    max-width: 40%;
+    margin: 1rem;
     transition: 0.8s;
 }
 
 #headshotImage:hover {
     border-radius: 3rem;
-    max-width: 45vw;
+    max-width: 45%;
     transition: 0.8s;
 }
 
 h1, h3 {
     padding: 0.5rem 1rem;
     text-align: center;
+    animation: fadeIn2 2s ease;    
 }
 
 p {
     padding: 1rem;
-    margin-bottom: 3vh;
+}
+
+.hBox {
+    background-color:rgb(50, 116, 124);
+    animation: slide 1.5s ease;
+    white-space: nowrap;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.pBox {
+    background-color: rgba(255, 255, 255, 0.486);
+    animation: slide 1.5s ease;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 3rem;
     color: white;
-    background-color:rgb(50, 116, 124);
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    width: 90vw;
     
+    width: 90vw;    
 }
 
 h3 {
     font-size: 1.75rem;
     color: white;
-    background-color:rgb(50, 116, 124);
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     width: 90vw;
@@ -54,14 +67,8 @@ h3 {
 
 p, ul {
     font-size: 1.25rem;
-    background-color: rgba(255, 255, 255, 0.486);
     width: 90vw;
-    
-}
-
-p:nth-last-of-type(1), ul {
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    animation: fadeIn2 2s ease;
 }
 
 ul {
