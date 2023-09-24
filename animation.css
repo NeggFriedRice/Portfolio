@@ -16,16 +16,21 @@
 }
 
 @keyframes slide {
-    0% {width: 1vw;
+    0% {width: 1%;
         opacity: 0;    
     }
-    100% {width: 90vw;
+    100% {width: 100%;
         opacity: 1;
     }
 }
 
 @keyframes pulse {
     0% {font-size: 1rem}
-    30% {font-size: 1.25rem}
+    30% {font-size: 1.15rem}
     100% {font-size: 1rem}
 }
+
+@keyframes sweep {
+    0%    {opacity: 0; margin-left: -10px}
+    100%  {opacity: 1; margin-left: 0px}
+  }

@@ -15,11 +15,9 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 0.2rem;
-    /* min-width: 3rem; */
+    width: 100%;
     background-color: rgb(50, 116, 124);
     position: fixed;
-    width: 100vw;
-       
 }
 
 header, #socialBanner {
@@ -96,13 +94,94 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0 1rem 0;
+    margin-top: auto;
+    padding-bottom: 1rem;
     color: rgb(50, 116, 124);
     transition: 0.8s;
-    max-height: 1rem;
+    min-height: 2rem;
+    
 }
 
 footer i {
     animation: pulse 2s infinite;
 }
 
+/* For tablets */
+@media only screen and (min-width: 600px) and (max-width: 1279px) {
+    nav a {
+        font-size: 1.25rem;
+    }
+
+    nav a i.material-symbols-outlined {
+        font-size: 3rem;
+    }
+
+    .socialBanner {
+        padding: 5.5rem 0.5rem 0.5rem;  
+    }
+
+    .socialLogo {
+        max-height: 2.5rem;
+        transition: 0.3s;
+    }
+    
+    .socialLogo:hover {
+        max-height: 3rem;
+    }
+    
+    .socialBanner a:hover {
+        font-size: 1.5rem;
+    }
+
+    section .blogImage {
+        max-width: 30%;
+    }
+
+    section .blogImage:hover {
+        max-width: 33%;
+    }
+
+    section details[open] {
+        height: 30rem;
+    }
+}
+
+/* For PC */
+@media only screen and (min-width: 1280px) {
+    section {
+        max-width: 1000px;
+    }
+    
+    section > *, section h1 {
+        max-width: 1000px;
+    }   
+
+    nav a {
+        font-size: 1.25rem;
+    }
+
+    nav a i.material-symbols-outlined {
+        font-size: 2rem;
+    }
+
+    .socialBanner {
+        padding: 4.5rem 0.5rem 0.5rem;  
+    }
+
+    .socialLogo {
+        max-height: 2rem;
+        transition: 0.3s;
+    }
+    
+    .socialLogo:hover {
+        max-height: 2.5rem;
+    }
+    
+    .socialBanner a:hover {
+        font-size: 1rem;
+    }
+
+    section details[open] {
+        height: 35rem;
+    }
+}

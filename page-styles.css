@@ -6,7 +6,11 @@ main {
 }
 
 h1 {
-    padding: 1rem 1rem;
+    font-size: 3rem;
+    color: white;   
+    width: 90vw;
+    animation: fadeIn2 2s ease;
+    padding: 1rem 1rem;  
 }
 
 h3 {
@@ -14,25 +18,15 @@ h3 {
 }
 
 p {
-    padding: 1rem 1rem;
-}
-
-p:nth-last-of-type(1) {
-    padding-bottom: 1rem;
+    margin: 1rem 1rem;
 }
 
 .hBox {
     background-color:rgb(50, 116, 124);
     border-radius: 1rem;
+    max-width: 90vw;
     animation: slide 1.5s ease;
     margin: 1rem;
-}
-
-h1 {
-    font-size: 3rem;
-    color: white;   
-    width: 90vw;
-    animation: fadeIn2 2s ease;  
 }
 
 section {
@@ -40,6 +34,7 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
 .contentBox {
     display: flex;
     flex-direction: column;
@@ -65,6 +60,31 @@ section {
     transition: 0.8s;
 }
 
+.blogImage {
+    max-width: 40%;
+    border-radius: 30%;
+    align-self: center;
+    transition: 0.8s;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+.blogImage:hover {
+    max-width: 43%;
+    border-radius: 20%;
+    transition: 0.8s;
+}
+
+.blogDate {
+    color: rgb(50, 116, 124);
+    padding-left: 1rem;
+}
+
+summary {
+    display: flex;
+    justify-content: space-between;
+}
+
 .imageRow {
     display: flex;
     justify-content: center;
@@ -75,16 +95,34 @@ section {
 }
 
 #hobby2 {
-    margin-right: -5%;
+    margin-right: -10%;
     transform: rotate(-10deg);
 }
 
 #hobby3 {
-    margin-left: -5%;
+    margin-left: -10%;
     transform: rotate(10deg);
 }
 
 #hobby2:hover, #hobby3:hover {
     margin: 0;
     transform: rotate(0deg);
+}
+
+details {
+    display: flex;
+    flex-direction: column;
+    transition: height 1s ease;
+    overflow: hidden;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+
+details:not([open]) {
+    height: 4rem;
+}
+
+details[open] {
+    height: 30rem;
 }
