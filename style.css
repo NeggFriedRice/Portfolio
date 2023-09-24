@@ -98,7 +98,7 @@ footer {
     padding-bottom: 1rem;
     color: rgb(50, 116, 124);
     transition: 0.8s;
-    min-height: 2rem;
+    min-height: 2.5rem;
     
 }
 
@@ -148,11 +148,8 @@ footer i {
 
 /* For PC */
 @media only screen and (min-width: 1280px) {
-    section {
-        max-width: 1000px;
-    }
-    
-    section > *, section h1 {
+
+    section, section > *, section h1, section h3 {
         max-width: 1000px;
     }   
 

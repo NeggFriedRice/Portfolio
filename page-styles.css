@@ -43,7 +43,27 @@ section {
     background-color: rgba(255, 255, 255, 0.486);
     font-size: 1rem; 
     margin-bottom: 1rem;
+ 
     animation: fadeIn2 2s ease;
+}
+
+#cv {
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: rgb(148, 218, 208);
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    animation: fadeIn2 2s ease;
+    background-color:rgb(50, 116, 124);
+    transition: 0.8s;
+}
+
+#cv:hover {
+    background-color: rgb(56, 143, 153);
+    color: white;
 }
 
 .contentImage {
@@ -80,9 +100,10 @@ section {
     padding-left: 1rem;
 }
 
-summary {
+summary, h4 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .imageRow {
@@ -115,8 +136,12 @@ details {
     transition: height 1s ease;
     overflow: hidden;
     padding: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.1rem;
+    transition: 0.8s;
+    border-radius: 1rem;
+}
+
+details:hover {
+    background-color: rgb(226, 236, 231);
 }
 
 details:not([open]) {
