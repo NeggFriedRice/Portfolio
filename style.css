@@ -92,10 +92,17 @@ body {
     flex-direction: column;
 }
 
-
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 3rem 0 1rem 0;
+    color: rgb(50, 116, 124);
+    transition: 0.8s;
+    max-height: 1rem;
+}
+
+footer i {
+    animation: pulse 2s infinite;
 }
 

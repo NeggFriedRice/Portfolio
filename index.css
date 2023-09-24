@@ -11,14 +11,14 @@ body {
 }
 
 #headshotImage {
-    border-radius: 6rem;
+    border-radius: 30%;
     max-width: 40%;
     margin: 1rem;
     transition: 0.8s;
 }
 
 #headshotImage:hover {
-    border-radius: 3rem;
+    border-radius: 20%;
     max-width: 45%;
     transition: 0.8s;
 }

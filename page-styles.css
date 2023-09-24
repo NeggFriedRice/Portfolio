@@ -38,6 +38,11 @@ h1 {
 section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.contentBox {
+    display: flex;
+    flex-direction: column;
     width: 90vw;  
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.486);
@@ -48,7 +53,7 @@ section {
 
 .contentImage {
     max-width: 30%;
-    border-radius: 5rem;
+    border-radius: 30%;
     align-self: center;
     transition: 0.8s;
     padding-top: 1rem;
@@ -56,6 +61,30 @@ section {
 
 .contentImage:hover {
     max-width: 35%;
-    border-radius: 3rem;
+    border-radius: 20%;
     transition: 0.8s;
+}
+
+.imageRow {
+    display: flex;
+    justify-content: center;
+}
+
+#hobby1 {
+    z-index: 1;
+}
+
+#hobby2 {
+    margin-right: -5%;
+    transform: rotate(-10deg);
+}
+
+#hobby3 {
+    margin-left: -5%;
+    transform: rotate(10deg);
+}
+
+#hobby2:hover, #hobby3:hover {
+    margin: 0;
+    transform: rotate(0deg);
 }
