@@ -111,6 +111,11 @@ details {
     border-radius: 1rem;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+}
+
 details:hover {
     background-color: rgb(226, 236, 231);
 }
@@ -133,7 +138,7 @@ details[open] {
     font-size: 1.5rem;
     text-decoration: none;
     border-radius: 1rem;
-    animation: fadeIn1 1.5s ease-out;
+    animation: fadeIn1 1.75s ease-out;
     background-color:rgb(50, 116, 124);
     transition: 0.8s;
 }
