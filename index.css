@@ -10,6 +10,7 @@ body {
     transition: 0.8s;
 }
 
+/* COMPONENT: Hero box */
 #headshotImage {
     border-radius: 30%;
     max-width: 40%;
@@ -29,11 +30,7 @@ h1, h3 {
     animation: fadeIn2 2s ease;    
 }
 
-p {
-    padding: 1rem;
-}
-
-.hBox {
+.hBoxHero {
     background-color:rgb(50, 116, 124);
     animation: slide 1.5s ease;
     white-space: nowrap;
@@ -41,19 +38,12 @@ p {
     border-top-left-radius: 1rem;
 }
 
-.pBox {
+.pBoxHero {
     background-color: rgba(255, 255, 255, 0.486);
     animation: slide 1.5s ease;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     margin-bottom: 1rem;
-}
-
-h1 {
-    font-size: 3rem;
-    color: white;
-    
-    width: 90vw;    
 }
 
 h3 {

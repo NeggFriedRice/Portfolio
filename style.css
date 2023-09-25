@@ -10,6 +10,14 @@
     font-family: 'Monsterrat', sans-serif;
 }
 
+body {
+    background-color: rgb(131, 182, 178);
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+/* COMPONENT: Nav bar */
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -18,10 +26,6 @@ nav {
     width: 100%;
     background-color: rgb(50, 116, 124);
     position: fixed;
-}
-
-header, #socialBanner {
-    animation: fadeIn2 2s; 
 }
 
 nav a {
@@ -38,6 +42,24 @@ nav a {
 
 nav a:hover {
     color: white;
+}
+
+/* COMPONENT: Social links bar */
+header, #socialBanner {
+    animation: fadeIn2 2s; 
+}
+
+address a {
+    margin: 0 1rem;
+    font-style: normal;
+}
+
+.socialBanner {
+    background-color:rgb(56, 143, 153);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4rem 0.5rem 0.5rem;    
 }
 
 .socialBanner a {
@@ -57,6 +79,7 @@ nav a:hover {
 i {
     margin: 0 0.3rem;
 }
+
 .socialLogo {
     max-height: 2rem;
     transition: 0.3s;
@@ -70,26 +93,20 @@ i {
     font-size: 1rem;
 }
 
-address a {
-    margin: 0 1rem;
-    font-style: normal;
+/* Text formatting */
+h1 {
+    font-size: 3rem;
+    color: white;   
+    width: 90vw;
+    animation: fadeIn2 2s ease;
+    padding: 1rem 1rem;  
 }
 
-.socialBanner {
-    background-color:rgb(56, 143, 153);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 4rem 0.5rem 0.5rem;    
+p {
+    padding: 1rem;
 }
 
-body {
-    background-color: rgb(131, 182, 178);
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
-}
-
+/* Footer formatting */
 footer {
     display: flex;
     justify-content: center;
@@ -99,15 +116,14 @@ footer {
     color: rgb(50, 116, 124);
     transition: 0.8s;
     min-height: 2.5rem;
-    
 }
 
 footer i {
     animation: pulse 2s infinite;
 }
 
-/* For tablets */
-@media only screen and (min-width: 600px) and (max-width: 1279px) {
+/* BREAKPOINT: For tablet view */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
     nav a {
         font-size: 1.25rem;
     }
@@ -146,11 +162,11 @@ footer i {
     }
 }
 
-/* For PC */
-@media only screen and (min-width: 1280px) {
+/* BREAKPOINT: For desktop view */
+@media only screen and (min-width: 1025px) {
 
     section, section > *, section h1, section h3 {
-        max-width: 1000px;
+        max-width: 1025px;
     }   
 
     nav a {
@@ -179,6 +195,6 @@ footer i {
     }
 
     section details[open] {
-        height: 35rem;
+        height: 36rem;
     }
 }

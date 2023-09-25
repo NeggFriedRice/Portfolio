@@ -5,20 +5,9 @@ main {
     align-items: center; 
 }
 
-h1 {
-    font-size: 3rem;
-    color: white;   
-    width: 90vw;
-    animation: fadeIn2 2s ease;
-    padding: 1rem 1rem;  
-}
-
+/* COMPONENT: Content box */
 h3 {
     padding: 1rem 1rem 0;
-}
-
-p {
-    margin: 1rem 1rem;
 }
 
 .hBox {
@@ -43,27 +32,7 @@ section {
     background-color: rgba(255, 255, 255, 0.486);
     font-size: 1rem; 
     margin-bottom: 1rem;
- 
-    animation: fadeIn2 2s ease;
-}
-
-#cv {
-    display: flex;
-    margin-top: 1rem;
-    padding: 1rem;
-    color: rgb(148, 218, 208);
-    align-items: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    border-radius: 1rem;
-    animation: fadeIn2 2s ease;
-    background-color:rgb(50, 116, 124);
-    transition: 0.8s;
-}
-
-#cv:hover {
-    background-color: rgb(56, 143, 153);
-    color: white;
+    animation: fadeIn2 2s ease-out;
 }
 
 .contentImage {
@@ -78,6 +47,7 @@ section {
     max-width: 35%;
     border-radius: 20%;
     transition: 0.8s;
+
 }
 
 .blogImage {
@@ -111,25 +81,26 @@ summary, h4 {
     justify-content: center;
 }
 
-#hobby1 {
+.imageStraight {
     z-index: 1;
 }
 
-#hobby2 {
+.imageTiltLeft {
     margin-right: -10%;
     transform: rotate(-10deg);
 }
 
-#hobby3 {
+.imageTiltRight {
     margin-left: -10%;
     transform: rotate(10deg);
 }
 
-#hobby2:hover, #hobby3:hover {
+.imageTiltLeft:hover, .imageTiltRight:hover {
     margin: 0;
     transform: rotate(0deg);
 }
 
+/* COMPONENT: Details box */
 details {
     display: flex;
     flex-direction: column;
@@ -150,4 +121,24 @@ details:not([open]) {
 
 details[open] {
     height: 30rem;
+}
+
+/* Resume formatting */
+#cv {
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: rgb(148, 218, 208);
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    animation: fadeIn1 1.5s ease-out;
+    background-color:rgb(50, 116, 124);
+    transition: 0.8s;
+}
+
+#cv:hover {
+    background-color: rgb(56, 143, 153);
+    color: white;
 }
