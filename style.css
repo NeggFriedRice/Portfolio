@@ -15,6 +15,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 /* COMPONENT: Nav bar */
@@ -33,7 +34,7 @@ nav a {
     align-items: center;
     font-size: 0.8rem;
     text-decoration: none;
-    /* text-wrap: nowrap;  */
+    text-wrap: nowrap; 
     margin: 0 0.4rem;
     color: rgb(148, 218, 208);
     animation: fadeIn3 2.5s;

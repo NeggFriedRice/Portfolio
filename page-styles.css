@@ -50,32 +50,6 @@ section {
 
 }
 
-.blogImage {
-    max-width: 40%;
-    border-radius: 30%;
-    align-self: center;
-    transition: 0.8s;
-    padding-top: 1rem;
-    margin: auto;
-}
-
-.blogImage:hover {
-    max-width: 43%;
-    border-radius: 20%;
-    transition: 0.8s;
-}
-
-.blogDate {
-    color: rgb(50, 116, 124);
-    padding-left: 1rem;
-}
-
-summary, h4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .imageRow {
     display: flex;
     justify-content: center;
@@ -116,6 +90,12 @@ article {
     flex-direction: column;
 }
 
+summary, h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 details:hover {
     background-color: rgb(226, 236, 231);
 }
@@ -128,7 +108,27 @@ details[open] {
     height: 30rem;
 }
 
-/* Resume formatting */
+.detailsImage {
+    max-width: 40%;
+    border-radius: 30%;
+    align-self: center;
+    transition: 0.8s;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+.detailsImage:hover {
+    max-width: 43%;
+    border-radius: 20%;
+    transition: 0.8s;
+}
+
+.detailsDate {
+    color: rgb(50, 116, 124);
+    padding-left: 1rem;
+}
+
+/* Resume button formatting */
 #cv {
     display: flex;
     margin-top: 1rem;
