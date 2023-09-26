@@ -61,13 +61,13 @@ section {
 
 .imageTiltLeft {
     max-width: 30%;
-    margin-right: -10%;
+    margin-right: -6%;
     transform: rotate(-10deg);
 }
 
 .imageTiltRight {
     max-width: 30%;
-    margin-left: -10%;
+    margin-left: -6%;
     transform: rotate(10deg);
 }
 
