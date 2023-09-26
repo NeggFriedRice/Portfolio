@@ -11,11 +11,14 @@
 }
 
 body {
-    background-color: rgb(131, 182, 178);
-    min-height: 100vh;
     display:flex;
     flex-direction: column;
     overflow-x: hidden;
+    min-height: 100vh;
+    /* Background gradient */
+    background: linear-gradient(-45deg, #609490, #7dc5bf, #86bdc5, #5e97a1);
+	background-size: 400% 400%;
+	animation: gradient 10s ease-out infinite;
 }
 
 /* COMPONENT: Nav bar */
@@ -100,7 +103,7 @@ h1 {
     font-size: 3rem;
     color: white;   
     width: 90vw;
-    animation: fadeIn2 2s ease;
+    animation: fadeIn2 2s ease-out;
     padding: 1rem 1rem;  
 }
 
