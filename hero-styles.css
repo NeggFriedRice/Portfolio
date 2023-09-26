@@ -8,7 +8,7 @@ main, section {
 /* COMPONENT: Hero box */
 #headshotImage {
     border-radius: 30%;
-    max-width: 40%;
+    max-width: 50%;
     margin: 1rem;
     animation: fadeIn1 1.5s ease-out;
     transition: 0.8s;
@@ -16,7 +16,7 @@ main, section {
 
 #headshotImage:hover {
     border-radius: 20%;
-    max-width: 45%;
+    max-width: 55%;
     transition: 0.8s;
 }
 

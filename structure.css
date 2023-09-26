@@ -173,6 +173,7 @@ footer i {
     section details[open] {
         height: 30rem;
     }
+
 }
 
 /* BREAKPOINT: For desktop view */
@@ -212,5 +213,19 @@ footer i {
 
     section details[open] {
         height: 36rem;
+    }
+
+    .contentImage {
+        max-width: 35%;
+        border-radius: 35%;
+        align-self: center;
+        transition: 0.8s;
+        padding-top: 1rem;
+    }
+    
+    .contentImage:hover {
+        max-width: 40%;
+        border-radius: 20%;
+        transition: 0.8s;
     }
 }

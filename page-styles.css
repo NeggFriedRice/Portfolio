@@ -36,15 +36,15 @@ section {
 }
 
 .contentImage {
-    max-width: 30%;
-    border-radius: 30%;
+    max-width: 50%;
+    border-radius: 35%;
     align-self: center;
     transition: 0.8s;
     padding-top: 1rem;
 }
 
 .contentImage:hover {
-    max-width: 35%;
+    max-width: 53%;
     border-radius: 20%;
     transition: 0.8s;
 }
@@ -55,20 +55,24 @@ section {
 }
 
 .imageStraight {
+    max-width: 30%;
     z-index: 1;
 }
 
 .imageTiltLeft {
+    max-width: 30%;
     margin-right: -10%;
     transform: rotate(-10deg);
 }
 
 .imageTiltRight {
+    max-width: 30%;
     margin-left: -10%;
     transform: rotate(10deg);
 }
 
-.imageTiltLeft:hover, .imageTiltRight:hover {
+.imageTiltLeft:hover, .imageTiltRight:hover, .imageStraight:hover {
+    max-width: 35%;
     margin: 0;
     transform: rotate(0deg);
 }
