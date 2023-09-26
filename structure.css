@@ -85,10 +85,6 @@ address a {
     font-size: 2.5rem;
 }
 
-i {
-    margin: 0 0.3rem;
-}
-
 .socialLogo {
     max-height: 2rem;
     transition: 0.3s;
@@ -113,6 +109,11 @@ h1 {
 
 p {
     padding: 1rem;
+}
+
+/* Icon formatting */
+i {
+    margin: 0 0.3rem;
 }
 
 /* Footer formatting */
