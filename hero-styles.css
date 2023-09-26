@@ -5,11 +5,6 @@ main, section {
     align-items: center; 
 }
 
-body {
-    /* animation: fadeIn1 1.5s ease-out; */
-    transition: 0.8s;
-}
-
 /* COMPONENT: Hero box */
 #headshotImage {
     border-radius: 30%;
