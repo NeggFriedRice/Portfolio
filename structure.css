@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
     min-height: 100vh;
     /* Background gradient */
-    background: linear-gradient(-45deg, #609490, #7dc5bf, #86bdc5, #5e97a1);
+    background: linear-gradient(-45deg, #598884, #7dc5bf, #86bdc5, #51818a);
 	background-size: 400% 400%;
 	animation: gradient 10s ease-out infinite;
 }
