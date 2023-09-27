@@ -63,7 +63,6 @@ address a {
     justify-content: flex-end;
     align-items: center;
     padding: 4rem 0.5rem 0.5rem;    
-
 }
 
 .socialBanner a {
@@ -86,7 +85,7 @@ address a {
 }
 
 .socialLogo:hover {
-    max-height: 2.5rem;
+    transform: scale(1.25);
 }
 
 .socialBanner a:hover {
@@ -154,10 +153,6 @@ footer i {
         transition: 0.3s;
     }
     
-    .socialLogo:hover {
-        max-height: 3rem;
-    }
-    
     .socialBanner a:hover {
         font-size: 1.5rem;
     }
@@ -197,18 +192,9 @@ footer i {
     .socialBanner {
         padding: 4.5rem 0.5rem 0.5rem;  
     }
-
-    .socialLogo {
-        max-height: 2rem;
-        transition: 0.3s;
-    }
-    
-    .socialLogo:hover {
-        max-height: 2.5rem;
-    }
     
     .socialBanner a:hover {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     section details[open] {
