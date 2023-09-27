@@ -42,7 +42,6 @@ nav a {
     display: inline-flex;
     align-items: center;
     font-size: 0.8rem;
-    text-decoration: none;
     text-wrap: nowrap; 
     margin: 0 0.4rem;
     color: rgb(148, 218, 208);
@@ -77,7 +76,6 @@ address a {
     align-items: center;
     animation: fadeIn3 2.5s;
     font-size: 0;
-    text-decoration: none;
     color: white;
     transition: 0.3s ease-out;
 }
