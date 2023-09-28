@@ -14,6 +14,8 @@ This portfolio is a digital showcase to present:
 - Additional information about me outside of work
 - Blog posts about my thoughts
 
+Aside from sharing my information to the target audience, this portfolio serves as a display of what I can do as a full stack web developer allowing me to quickly share my design choices, my personality and most importantly my ability to code in a visual format.
+
 ## Target Audience
 The main target audience for this portfolio is for:
 - Prospective employers
