@@ -44,6 +44,3 @@ Interactive elements have been animated to grow or change colour to indicate tha
 
 ## Site Screenshots
 ![Site screenshots](./docs/screenshots.png)
-
-## Wireframes
-![Site wireframes](./docs/wireframes.png)
